@@ -1,0 +1,23 @@
+{
+  "name": "luoyiba",
+  "version": "1.0.0",
+  "private": true,
+  "description": "螺一把 · 二重螺旋猜角色(单机版,非官方粉丝作品)",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rainfall66/luoyiba.git"
+  },
+  "scripts": {
+    "serve": "node tools/serve.js",
+    "verify": "node tools/verify_db.js && node tools/test_integration.js && node tools/test_logic.js && node tools/test_pinyin_search.js && node tools/test_ui_smoke.js && node tools/test_static_serve.js",
+    "build:data": "node tools/fetch_char_data.js && node tools/build_chars_db.js",
+    "build:images": "node tools/fetch_imgs.js && node tools/build_chars_db.js",
+    "build:pinyin": "node tools/fetch_pinyin_lib.js && node tools/gen_pinyin.js && node tools/build_chars_db.js",
+    "build:gender": "node tools/fetch_gender.js && node tools/gen_gender_weapon.js && node tools/build_chars_db.js",
+    "build:all": "node tools/fetch_char_data.js && node tools/fetch_imgs.js && node tools/fetch_pinyin_lib.js && node tools/gen_pinyin.js && node tools/fetch_gender.js && node tools/gen_gender_weapon.js && node tools/build_chars_db.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

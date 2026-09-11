@@ -1,0 +1,299 @@
+{
+ "贝蕾妮卡": {
+  "slug": "berenica",
+  "gender": "Female",
+  "birthday": "1 January",
+  "height": "",
+  "proficiency": "Sword / Dual Pistols",
+  "element": "",
+  "release": ""
+ },
+ "芙罗拉": {
+  "slug": "flora",
+  "gender": "Female",
+  "birthday": "28 April",
+  "height": "",
+  "proficiency": "Sword / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "幻景": {
+  "slug": "phantasio",
+  "gender": "Male",
+  "birthday": "9 October",
+  "height": "",
+  "proficiency": "Greatsword / Shotgun",
+  "element": "",
+  "release": ""
+ },
+ "主角-暗": {
+  "slug": "protagonist-umbro",
+  "gender": "-",
+  "birthday": "-",
+  "height": "",
+  "proficiency": "Sword / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "莉兹贝尔": {
+  "slug": "lisbell",
+  "gender": "Female",
+  "birthday": "8 August",
+  "height": "",
+  "proficiency": "Greatsword / Shotgun",
+  "element": "",
+  "release": ""
+ },
+ "妮弗尔夫人": {
+  "slug": "lady-nifle",
+  "gender": "Female",
+  "birthday": "29 February",
+  "height": "",
+  "proficiency": "Katana / Pistol",
+  "element": "",
+  "release": ""
+ },
+ "刻舟": {
+  "slug": "kezhou",
+  "gender": "Male",
+  "birthday": "1st November",
+  "height": "",
+  "proficiency": "All Types",
+  "element": "",
+  "release": ""
+ },
+ "苏乙": {
+  "slug": "suyi",
+  "gender": "Female",
+  "birthday": "9 September",
+  "height": "",
+  "proficiency": "Polearm / Shotgun",
+  "element": "",
+  "release": ""
+ },
+ "主角-光": {
+  "slug": "protagonist",
+  "gender": "-",
+  "birthday": "-",
+  "height": "",
+  "proficiency": "Sword / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "菲娜": {
+  "slug": "fina",
+  "gender": "Female",
+  "birthday": "2 April",
+  "height": "",
+  "proficiency": "Sword / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "丽蓓卡": {
+  "slug": "rebecca",
+  "gender": "Female",
+  "birthday": "20 March",
+  "height": "",
+  "proficiency": "Polearm / Grenade Launcher",
+  "element": "",
+  "release": ""
+ },
+ "伊薇": {
+  "slug": "eve",
+  "gender": "Female",
+  "birthday": "6 September",
+  "height": "",
+  "proficiency": "Polearm / Dual Pistols",
+  "element": "",
+  "release": ""
+ },
+ "主角-水": {
+  "slug": "protagonist-hydro",
+  "gender": "-",
+  "birthday": "-",
+  "height": "",
+  "proficiency": "Sword / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "塔比瑟": {
+  "slug": "tabethe",
+  "gender": "Female",
+  "birthday": "10 December",
+  "height": "",
+  "proficiency": "Sword / Bow",
+  "element": "",
+  "release": ""
+ },
+ "扶疏": {
+  "slug": "fushu",
+  "gender": "Female",
+  "birthday": "1st September",
+  "height": "",
+  "proficiency": "Whipsword / Bow",
+  "element": "",
+  "release": ""
+ },
+ "琳恩": {
+  "slug": "lynn",
+  "gender": "Female",
+  "birthday": "17 April",
+  "height": "",
+  "proficiency": "Greatsword / Dual Pistols",
+  "element": "",
+  "release": ""
+ },
+ "希尔妲": {
+  "slug": "hilda",
+  "gender": "Female",
+  "birthday": "20 July",
+  "height": "",
+  "proficiency": "Dual Blades / Grenade Launcher",
+  "element": "",
+  "release": ""
+ },
+ "耶尔与奥利弗": {
+  "slug": "yale-oliver",
+  "gender": "Male",
+  "birthday": "21 December",
+  "height": "",
+  "proficiency": "Sword / Shotgun",
+  "element": "",
+  "release": ""
+ },
+ "法露茜": {
+  "slug": "falsi",
+  "gender": "Female",
+  "birthday": "2 December",
+  "height": "",
+  "proficiency": "Dual Blades / Dual Pistols",
+  "element": "",
+  "release": ""
+ },
+ "海尔法": {
+  "slug": "hellfire",
+  "gender": "Female",
+  "birthday": "18 August",
+  "height": "",
+  "proficiency": "Greatsword / Grenade Launcher",
+  "element": "",
+  "release": ""
+ },
+ "卡米拉": {
+  "slug": "camilla",
+  "gender": "Female",
+  "birthday": "21 November",
+  "height": "",
+  "proficiency": "Whipblade / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "玛尔洁": {
+  "slug": "margie",
+  "gender": "Female",
+  "birthday": "20 September",
+  "height": "",
+  "proficiency": "Polearm / Shotgun",
+  "element": "",
+  "release": ""
+ },
+ "黎瑟": {
+  "slug": "rhythm",
+  "gender": "Female",
+  "birthday": "19 August",
+  "height": "",
+  "proficiency": "Katana / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "止流": {
+  "slug": "zhiliu",
+  "gender": "Female",
+  "birthday": "19 December",
+  "height": "",
+  "proficiency": "Greatsword / Dual Pistols",
+  "element": "",
+  "release": ""
+ },
+ "SP黎瑟": {
+  "slug": "rhythm",
+  "gender": "Female",
+  "birthday": "19 August",
+  "height": "",
+  "proficiency": "Katana / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "煜明": {
+  "slug": "yuming",
+  "gender": "Male",
+  "birthday": "11 November",
+  "height": "",
+  "proficiency": "Polearm / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "兰迪": {
+  "slug": "randy",
+  "gender": "Male",
+  "birthday": "14 March",
+  "height": "",
+  "proficiency": "Sword / Pistol",
+  "element": "",
+  "release": ""
+ },
+ "西比尔": {
+  "slug": "sibylle",
+  "gender": "Female",
+  "birthday": "5 September",
+  "height": "",
+  "proficiency": "Whipsword / Pistol",
+  "element": "",
+  "release": ""
+ },
+ "松露与榛子": {
+  "slug": "truffle-filbert",
+  "gender": "Female",
+  "birthday": "1 June",
+  "height": "",
+  "proficiency": "Polearm / Bow",
+  "element": "",
+  "release": ""
+ },
+ "奥特赛德": {
+  "slug": "outsider",
+  "gender": "Male",
+  "birthday": "1 April",
+  "height": "",
+  "proficiency": "Dual Blades / Dual Pistols",
+  "element": "",
+  "release": ""
+ },
+ "赛琪": {
+  "slug": "psyche",
+  "gender": "Female",
+  "birthday": "22 June",
+  "height": "",
+  "proficiency": "Polearm / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "达芙涅": {
+  "slug": "daphne",
+  "gender": "Female",
+  "birthday": "8 May",
+  "height": "",
+  "proficiency": "Whipsword / Assault Rifle",
+  "element": "",
+  "release": ""
+ },
+ "莉莉蔻": {
+  "slug": "lilikou",
+  "gender": "",
+  "birthday": "",
+  "height": "",
+  "proficiency": "",
+  "element": "",
+  "release": ""
+ }
+}

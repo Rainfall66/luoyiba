@@ -1,0 +1,371 @@
+{
+ "ok": [
+  "贝蕾妮卡",
+  "芙罗拉",
+  "幻景",
+  "主角-暗",
+  "莉兹贝尔",
+  "妮弗尔夫人",
+  "刻舟",
+  "苏乙",
+  "主角-光",
+  "菲娜",
+  "丽蓓卡",
+  "伊薇",
+  "主角-水",
+  "塔比瑟",
+  "扶疏",
+  "琳恩",
+  "希尔妲",
+  "耶尔与奥利弗",
+  "法露茜",
+  "海尔法",
+  "卡米拉",
+  "玛尔洁",
+  "黎瑟",
+  "止流",
+  "SP黎瑟",
+  "煜明",
+  "兰迪",
+  "西比尔",
+  "松露与榛子",
+  "奥特赛德",
+  "赛琪",
+  "达芙涅",
+  "莉莉蔻"
+ ],
+ "missing": [],
+ "fallback": [],
+ "details": [
+  {
+   "id": 1101,
+   "名称": "贝蕾妮卡",
+   "slug": "heitao",
+   "icon": "Heitao",
+   "files": [
+    "images/head-heitao.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1102,
+   "名称": "芙罗拉",
+   "slug": "fuluo",
+   "icon": "Fuluo",
+   "files": [
+    "images/head-fuluo.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1103,
+   "名称": "幻景",
+   "slug": "huanying",
+   "icon": "Tuosi",
+   "files": [
+    "images/head-huanying.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1201,
+   "名称": "主角-暗",
+   "slug": "zhujue-dark",
+   "icon": "Nvzhu02",
+   "files": [
+    "images/head-zhujue-dark.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1501,
+   "名称": "莉兹贝尔",
+   "slug": "baonu",
+   "icon": "Baonu",
+   "files": [
+    "images/head-baonu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1502,
+   "名称": "妮弗尔夫人",
+   "slug": "nifu",
+   "icon": "Nifu",
+   "files": [
+    "images/head-nifu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1503,
+   "名称": "刻舟",
+   "slug": "kezhou",
+   "icon": "Kezhou",
+   "files": [
+    "images/head-kezhou.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1504,
+   "名称": "苏乙",
+   "slug": "suyi",
+   "icon": "Suyi",
+   "files": [
+    "images/head-suyi.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1601,
+   "名称": "主角-光",
+   "slug": "zhujue-light",
+   "icon": "Nvzhu",
+   "files": [
+    "images/head-zhujue-light.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 1801,
+   "名称": "菲娜",
+   "slug": "feina",
+   "icon": "Feina",
+   "files": [
+    "images/head-feina.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 2101,
+   "名称": "丽蓓卡",
+   "slug": "shuimu",
+   "icon": "Shuimu",
+   "files": [
+    "images/head-shuimu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 2102,
+   "名称": "伊薇",
+   "slug": "eve",
+   "icon": "Eve",
+   "files": [
+    "images/head-eve.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 2201,
+   "名称": "主角-水",
+   "slug": "zhujue-water",
+   "icon": "WeitaF",
+   "files": [
+    "images/head-zhujue-water.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 2301,
+   "名称": "塔比瑟",
+   "slug": "zhangyu",
+   "icon": "Zhangyu",
+   "files": [
+    "images/head-zhangyu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 2401,
+   "名称": "扶疏",
+   "slug": "baiheng",
+   "icon": "Baiheng",
+   "files": [
+    "images/head-baiheng.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 3101,
+   "名称": "琳恩",
+   "slug": "linen",
+   "icon": "Linen",
+   "files": [
+    "images/head-linen.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 3102,
+   "名称": "希尔妲",
+   "slug": "xier",
+   "icon": "Xier",
+   "files": [
+    "images/head-xier.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 3103,
+   "名称": "耶尔与奥利弗",
+   "slug": "yeer",
+   "icon": "Yeer",
+   "files": [
+    "images/head-yeer.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 3104,
+   "名称": "法露茜",
+   "slug": "falu",
+   "icon": "Falu",
+   "files": [
+    "images/head-falu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 3201,
+   "名称": "海尔法",
+   "slug": "haier",
+   "icon": "Haier",
+   "files": [
+    "images/head-haier.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 3202,
+   "名称": "卡米拉",
+   "slug": "kami",
+   "icon": "Kami",
+   "files": [
+    "images/head-kami.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 3301,
+   "名称": "玛尔洁",
+   "slug": "maer",
+   "icon": "Maer",
+   "files": [
+    "images/head-maer.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 4101,
+   "名称": "黎瑟",
+   "slug": "lise",
+   "icon": "Lise",
+   "files": [
+    "images/head-lise.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 4102,
+   "名称": "止流",
+   "slug": "zhiliu",
+   "icon": "Zhiliu",
+   "files": [
+    "images/head-zhiliu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 4103,
+   "名称": "SP黎瑟",
+   "slug": "sp-lise",
+   "icon": "SpLise",
+   "files": [
+    "images/head-sp-lise.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 4201,
+   "名称": "煜明",
+   "slug": "yuming",
+   "icon": "Yuming",
+   "files": [
+    "images/head-yuming.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 4202,
+   "名称": "兰迪",
+   "slug": "landi",
+   "icon": "Landi",
+   "files": [
+    "images/head-landi.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 4301,
+   "名称": "西比尔",
+   "slug": "xibi",
+   "icon": "Xibi",
+   "files": [
+    "images/head-xibi.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 5101,
+   "名称": "松露与榛子",
+   "slug": "songlu",
+   "icon": "Songlu",
+   "files": [
+    "images/head-songlu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 5102,
+   "名称": "奥特赛德",
+   "slug": "aote",
+   "icon": "Aote",
+   "files": [
+    "images/head-aote.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 5301,
+   "名称": "赛琪",
+   "slug": "saiqi",
+   "icon": "Saiqi",
+   "files": [
+    "images/head-saiqi.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 5401,
+   "名称": "达芙涅",
+   "slug": "dafu",
+   "icon": "Dafu",
+   "files": [
+    "images/head-dafu.webp"
+   ],
+   "kind": "head"
+  },
+  {
+   "id": 5402,
+   "名称": "莉莉蔻",
+   "slug": "lilikou",
+   "icon": "Dafu",
+   "files": [
+    "images/head-lilikou.webp"
+   ],
+   "kind": "head"
+  }
+ ]
+}

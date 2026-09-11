@@ -1,0 +1,8 @@
+# 构建期依赖:只用于本地生成拼音,不随游戏分发
+tools/_pinyin_pro/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+node_modules/
+*.log

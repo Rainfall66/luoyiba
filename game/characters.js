@@ -251,7 +251,7 @@ window.LUOYIBA_CHARACTERS = [
   额外精通: ["长柄","重剑","双枪","霰弹枪"],
   标签: ["辅助"],
   birthday: "",
-  alias: "{nickname}",
+  alias: "",
   icon: "Nvzhu",
   pinyin: "zhujueguang",
   pinyinAbbr: "zjg",
