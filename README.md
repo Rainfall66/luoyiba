@@ -87,9 +87,6 @@ python3 -m http.server 8080    # 然后访问 http://localhost:8080/
 ├── characters.details.json     # 同一批角色的完整资料(基础攻击 / 生命 / 防御 / 护盾 / 神智)
 ├── style.css                   # 样式(深青底 #00111d + 荧光青柠 #bdff00)
 ├── images/                     # 33 张角色小头像(256×256 WebP)
-├── docs/BGM指南.md             # 想加背景音乐?这里有三条可行路径
-├── tools/                      # 数据抓取与自检脚本(不参与游戏运行)
-├── REPO-README.md              # 仓库说明(面向维护者)
 └── LICENSE                     # AGPL-3.0
 ```
 
