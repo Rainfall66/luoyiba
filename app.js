@@ -2,8 +2,8 @@
  * ---------------------------------------------------------------
  * 判定规则(《二重螺旋》角色数据库版):
  * - 属性 / 国籍 / 性别:与答案相同 = 绿
- * - 势力 / 版本 / 近战精通 / 远程精通:完全相同 = 绿;有共同项(子集或相交)= 黄
- * - 版本:数值更高/更低 = 黄 + ▲▼ 箭头(2.0 与 1.10 按数值比较,不是字典序)
+ * - 势力 / 近战精通 / 远程精通:完全相同 = 绿;有共同项(子集或相交)= 黄
+ * - 版本:与答案相同 = 绿,不同 = 灰(只判对与不对,不给高低方向)
  * - 生日:一年内相差 ≤15 天(环形) = 黄 + 更早/更晚箭头
  * - 未知属性(空值)一律灰 "-"
  * - 6 次机会内猜中角色名即胜
@@ -26,9 +26,9 @@
   var BIRTHDAY_CLOSE_DAYS = 15;
 
   // 参与「精确匹配」的属性列(值相同即绿)
-  var EXACT_FIELDS = ['属性', '国籍', '性别'];
+  var EXACT_FIELDS = ['属性', '国籍', '性别', '版本'];
   // 参与「重叠判定」的属性列(完全相同=绿,有交集=黄)
-  var OVERLAP_FIELDS = ['势力', '版本', '近战精通', '远程精通'];
+  var OVERLAP_FIELDS = ['势力', '近战精通', '远程精通'];
 
   // 棋盘列顺序:必须与 index.html 的 <th> 以及 characters.js 字段一致
   // (compare() 会用到,故必须在使用前声明,不能放到下面的 UI 段)
@@ -154,15 +154,14 @@
     return { value: display, level: 'wrong' };
   }
 
-  /** 版本:完全相同 = 绿;不同 = 黄 + 箭头(目标更高 ▲ / 更低 ▼);无法解析 = 灰 */
+  /** 版本:与答案相同 = 绿;不同 = 灰(只判对与不对,不给任何方向提示) */
   function versionAttr(guessValue, targetValue) {
     var g = String(guessValue == null ? '' : guessValue).trim();
     var t = String(targetValue == null ? '' : targetValue).trim();
     if (!g || !t) return { value: g, level: 'wrong' };
     var cmp = compareVersion(g, t);
     if (cmp === null) return { value: g, level: 'wrong' };
-    if (cmp === 0) return { value: g, level: 'correct' };
-    return { value: g, level: 'close', hint: cmp < 0 ? 'higher' : 'lower' };
+    return { value: g, level: cmp === 0 ? 'correct' : 'wrong' };
   }
 
   function birthdayAttr(guessValue, targetValue) {
