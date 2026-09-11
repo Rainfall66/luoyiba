@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TOOLS = __dirname;
-const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..', 'game');
+const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..');
 
 const lib = require(path.join(TOOLS, '_pinyin_pro', 'package', 'dist', 'index.js'));
 const py = lib.pinyin || (lib.default && lib.default.pinyin);

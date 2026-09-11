@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const GAME = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..', 'game');
+const GAME = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..');
 
 let fail = 0;
 function t(label, ok, extra = '') {

@@ -36,7 +36,6 @@
 ### 1. 放文件
 
 ```
-game/
 ├── index.html
 ├── app.js
 ├── style.css

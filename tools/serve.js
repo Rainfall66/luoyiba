@@ -5,7 +5,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const GAME = path.join(__dirname, '..', 'game');
+const GAME = path.join(__dirname, '..');
 const PORT = Number(process.argv[2]) || 8080;
 const MIME = {
   '.html': 'text/html; charset=utf-8',

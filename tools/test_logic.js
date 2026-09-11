@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const GAME = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..', 'game');
+const GAME = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..');
 
 // 1) 载入数据库 -> window
 const win = {};

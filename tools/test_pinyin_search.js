@@ -4,7 +4,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const GAME = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..', 'game');
+const GAME = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..');
 const win = {};
 new Function('window', fs.readFileSync(path.join(GAME, 'characters.js'), 'utf8'))(win);
 const mod = { exports: {} };

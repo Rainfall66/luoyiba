@@ -18,8 +18,8 @@ const fs = require('fs');
 const path = require('path');
 
 const TOOLS = __dirname;
-// 游戏目录: 默认 ../game,可用环境变量 LUOYIBA_GAME_DIR 覆盖
-const ROOT = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..', 'game');
+// 游戏目录: 默认仓库根,可用环境变量 LUOYIBA_GAME_DIR 覆盖
+const ROOT = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..');
 const SRC = process.argv[2] || path.join(TOOLS, '_char.data.ts');
 
 const text = fs.readFileSync(SRC, 'utf8');

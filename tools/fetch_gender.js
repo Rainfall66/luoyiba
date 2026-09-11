@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TOOLS = __dirname;
-const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..', 'game');
+const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..');
 
 // 角色名(中文) -> boarhat slug。依据 boarhat 角色列表页的链接。
 const SLUGS = {

@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..', 'game');
+const ROOT = process.env.LUOYIBA_GAME_DIR || path.join(__dirname, '..');
 const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 
 let fail = 0;

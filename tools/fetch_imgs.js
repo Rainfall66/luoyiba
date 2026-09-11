@@ -20,7 +20,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TOOLS = __dirname;
-const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..', 'game');
+const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..');
 const IMG_DIR = path.join(GAME, 'images');
 const BASE = 'https://cdn.jsdelivr.net/gh/pa001024/dna-builder@master/public/imgs/';
 

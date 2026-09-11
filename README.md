@@ -3,7 +3,7 @@
 > **非官方粉丝作品** —— 与《二重螺旋 Duet Night Abyss》及其开发 / 发行方无关。
 > 猜角色类 Wordle 玩法:输入角色名,根据逐属性颜色反馈,6 次机会内猜出目标角色。
 
-纯静态、零依赖、双击即玩:把 `game` 文件夹拷到任何电脑,浏览器打开 `index.html` 就能玩,无需 Node / 数据库 / 联网。
+纯静态、零依赖、双击即玩:把整个文件夹拷到任何电脑,浏览器打开 `index.html` 就能玩,无需 Node / 数据库 / 联网。
 
 ## 在线体验
 
@@ -41,9 +41,9 @@
 ## 本地运行
 
 ```bash
-# 方法1:直接双击 game/index.html
+# 方法1:直接双击 index.html
 # 方法2:本地起个静态服务(可选,效果一样)
-python3 -m http.server 8080    # 然后访问 http://localhost:8080/game/
+python3 -m http.server 8080    # 然后访问 http://localhost:8080/
 ```
 
 ## 自定义角色数据
@@ -73,7 +73,7 @@ python3 -m http.server 8080    # 然后访问 http://localhost:8080/game/
 
 ## 图片资源
 
-- `game/images/` 共 **33 张 WebP**,是游戏内角色小头像(`T_Head`),统一 **256×256**;
+- `images/` 共 **33 张 WebP**,是游戏内角色小头像(`T_Head`),统一 **256×256**;
 - 文件名统一用 **ASCII 拼音 slug**(如 `head-kezhou.webp`、`head-zhujue-dark.webp`),避免中文文件名在 zip 解压、URL 编码上的兼容问题;
 - 体积参考:单张 25~95 KB,整套约 2.2 MB;
 - 想换图/加图:把图片放进 `images/`,在 `characters.js` 对应角色的 `avatar` / `images` 里填相对路径即可;图片加载失败会自动隐藏,不会出现破图。
@@ -81,7 +81,6 @@ python3 -m http.server 8080    # 然后访问 http://localhost:8080/game/
 ## 文件结构
 
 ```
-game/
 ├── index.html                  # 入口(开始页 / 游戏页 / 规则与结算弹窗)
 ├── app.js                      # 全部逻辑:选目标 / 判定 / 补全 / 棋盘 / 图片 / 存档
 ├── characters.js               # 角色数据库(31 名可猜 + 2 名仅存档,共 33 条)
@@ -89,6 +88,8 @@ game/
 ├── style.css                   # 样式(深青底 #00111d + 荧光青柠 #bdff00)
 ├── images/                     # 33 张角色小头像(256×256 WebP)
 ├── docs/BGM指南.md             # 想加背景音乐?这里有三条可行路径
+├── tools/                      # 数据抓取与自检脚本(不参与游戏运行)
+├── REPO-README.md              # 仓库说明(面向维护者)
 └── LICENSE                     # AGPL-3.0
 ```
 

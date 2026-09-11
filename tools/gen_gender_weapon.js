@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TOOLS = __dirname;
-const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..', 'game');
+const GAME = process.env.LUOYIBA_GAME_DIR || path.join(TOOLS, '..');
 
 /** 武器类别划分(依据游戏内武器分类:近战 6 种 / 远程 6 种)
  *  近战:单手剑 长柄 重剑 双刀 鞭刃 太刀
